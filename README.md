@@ -100,8 +100,6 @@ kubectl create -f https://raw.githubusercontent.com/projectcalico/calico/v3.27.0
 ## Join other nodes to the cluster (k8s-master2 & k8s-worker1, k8s-worker2)
 > Use the respective kubeadm join commands you copied from the output of kubeadm init command on the first master.
 
-> IMPORTANT: You also need to pass --apiserver-advertise-address to the join command when you join the other master node.
-
 ## Downloading kube config to your local machine
 On your host machine
 ```
