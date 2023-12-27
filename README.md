@@ -6,11 +6,14 @@ This documentation guides you in setting up a cluster with two master nodes, two
 ## Environment
 |Role|FQDN|IP|OS|RAM|CPU|API Version|
 |----|----|----|----|----|----|----|
-|Master|k8s-master1.jem-dev.net|192.168.20.24|Ubuntu 23.04|4G|2|1.19|
-|Master|k8s-master2.jem-dev.net|192.168.20.100|Ubuntu 23.04|4G|2|1.19|
-|Worker|k8s-worker1.jem-dev.net|192.168.20.162|Ubuntu 23.04|1G|1|1.19|
-|Worker|k8s-worker2.jem-dev.net|192.168.20.5|Ubuntu 23.04|1G|1|1.19|
-|HAproxy|lb.jem-dev.net|192.168.20.84|Ubuntu 23.04|1G|1|
+|Master|k8s-master1.jem-dev.net|192.168.20.xxx|Ubuntu 23.04|4G|2|1.19|
+|Master|k8s-master2.jem-dev.net|192.168.20.xxx|Ubuntu 23.04|4G|2|1.19|
+|Master|k8s-master1.jem-dev.net|192.168.20.xxx|Ubuntu 23.04|4G|2|1.19|
+|Worker|k8s-worker1.jem-dev.net|192.168.20.xxx|Ubuntu 23.04|1G|1|1.19|
+|Worker|k8s-worker2.jem-dev.net|192.168.20.xxx|Ubuntu 23.04|1G|1|1.19|
+|Worker|k8s-worker1.jem-dev.net|192.168.20.xxx|Ubuntu 23.04|1G|1|1.19|
+|HAproxy|k8s-lb1.jem-dev.net|192.168.20.xxx|Ubuntu 23.04|1G|1|
+|HAproxy|k8s-lb2.jem-dev.net|192.168.20.xxx|Ubuntu 23.04|1G|1|
 
 
 > * Perform all the commands as root user unless otherwise specified
